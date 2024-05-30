@@ -1,108 +1,36 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
- body {
-   background-image: url('/assets/img/fondo.jpg.jpg');
- } 
-.form-register {
-    width: 400px;
-    background: #24303c;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-  }
-  
-.form-login h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
+.container{
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border:1px silver;
+        border: radius 5px;
+      }
+       
+       h2{
+        text-align: center;
+       }
+       form{
+        display: flex;
+        flex-direction: column;
+       }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      input,
+      textarea {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+      
+      input[type="submit"] {
+        background-color: #f3e2f2;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
 
-.controls {
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: white;
-  }
-
-  .form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
-
-  .form-register a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .form-register a:hover {
-    color:white;
-    text-decoration: underline;
-  }
-
-  .form-register .botons {
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-  }
-
-  .form-login {
-    width: 400px;
-    background: #24303c;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-  }
-  
-.form-login h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
-
-.form-login p {
-  height: 40px;
-  text-align: center;
-  font-size: 18px;
-  line-height: 40px;
-}
-
-.form-login a {
-  color: white;
-  text-decoration: none;
-}
-
-.form-login a:hover {
-  color:white;
-  text-decoration: underline;
-}
-
-.form-login .botons {
-  width: 100%;
-  background: #1f53c5;
-  border: none;
-  padding: 12px;
-  color: white;
-  margin: 16px 0;
-  font-size: 16px;
-}
